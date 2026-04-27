@@ -1,93 +1,207 @@
-# School Project Repository Template
+# Cybersecurity Knowledge Hub
 
-This repository provides a simple and structured base for academic work.
-It is designed to centralize documentation, resources, visual assets, and contribution tracking.
+**Owner:** PtiCalin (Charlie)
+**Purpose:** Centralized cybersecurity learning workspace and personal knowledge base
 
-## Project Overview
+---
 
-- Project title: [Project Title]
-- Course: [Course Name or Code]
-- Institution: [Institution Name]
-- Team: [Team Name or Individual]
-- Submission date: [YYYY-MM-DD]
+## Overview
 
-## Academic Objectives
+This repository serves as a comprehensive, structured environment for mastering cybersecurity—from foundational theory to advanced offensive and defensive techniques. It is designed as a living knowledge base that evolves with learning progression, academic coursework, and hands-on practice.
 
-- Define the problem statement or research question clearly.
-- Describe a reproducible methodology.
-- Present results supported by evidence.
-- Discuss limitations and future work.
+### Learning Objectives
+
+- Master core cybersecurity concepts: threat modeling, attack vectors, defense strategies
+- Develop practical skills in offensive security (ethical hacking, penetration testing)
+- Build defensive security competence (incident response, hardening, monitoring)
+- Understand cryptography, network security, and application security principles
+- Document techniques with both offensive mechanisms and defensive countermeasures
+- Maintain an annotated catalog of tools, papers, CVEs, and industry resources
+- Support academic coursework with structured, citable references
+
+### Design Principles
+
+| Principle                         | Implementation                                                        |
+| --------------------------------- | --------------------------------------------------------------------- |
+| **Progressive disclosure**        | Content organized by learning complexity, not just topic              |
+| **Offensive ↔ Defensive balance** | Every attack technique paired with mitigation strategies              |
+| **Academic rigor**                | Citations, references, and sources tracked in ATTRIBUTIONS.md         |
+| **Hands-on learning**             | Theory complemented by worked examples and exercises                  |
+| **Extensibility**                 | Structure supports future labs, CTF writeups, and interactive content |
+| **Knowledge retention**           | Spaced repetition markers, cross-references, and review checkpoints   |
+
+---
 
 ## Repository Structure
 
 ```text
-.
-├── README.md
-├── LICENSE
-├── AUTHORS.md
-├── ATTRIBUTIONS.md
-├── CHANGE-LOG.md
-├── .github/
-│   ├── SECURITY.md
-│   ├── templates/
-│   ├── versionning/
-│   └── workflows/
-└── files/
-    ├── assets/
-    │   └── ASSETS.md
-    ├── instructions/
-    │   └── generic-school-project-outline.md
-    └── resources/
-        └── RESOURCES.md
+cybersecurity/
+├── 01_theory/              # Core concepts, methodologies, frameworks
+│   ├── threat-modeling/
+│   ├── network-security/
+│   ├── cryptography/
+│   ├── offensive-security/
+│   ├── defensive-security/
+│   ├── application-security/
+│   └── ...
+├── 02_examples/            # Attack scenarios, defense implementations
+│   ├── case-studies/
+│   ├── exploit-analysis/
+│   ├── mitigation-demos/
+│   └── ...
+├── 03_exercises/           # Practice problems, CTF challenges, labs
+│   ├── beginner/
+│   ├── intermediate/
+│   ├── advanced/
+│   └── ...
+├── 04_resources/           # Curated resources with commentary
+│   ├── engines/            # Search engines, OSINT tools
+│   ├── tools/              # Security tool catalog
+│   ├── papers/             # Academic papers
+│   └── ...
+├── 05_references/          # Standards, CVE databases, frameworks
+│   ├── OWASP/
+│   ├── NIST/
+│   ├── CVE/
+│   └── ...
+├── README.md               # This file
+├── ATTRIBUTIONS.md         # Workspace development attribution
+├── AUTHORS.md              # Contributor information
+├── LICENSE                 # MIT License (educational use)
+├── CHANGE-LOG.md           # Evolution and version history
+└── .claude/
+    ├── CLAUDE.md           # AI assistance context
+    └── rules/              # Coding standards and workflows
 ```
+
+---
 
 ## Quick Start
 
-1. Clone the repository.
-2. Create a working branch from main.
-3. Add content in the appropriate location:
-    - files/resources for sources and references
-    - files/assets for diagrams, images, and presentation material
-    - ATTRIBUTIONS.md for external source traceability
-4. Update CHANGE-LOG.md for any significant change.
-5. Open a Pull Request.
+### For Learning
 
-## Expected Deliverables
+1. **Start with theory** → Navigate to `01_theory/` and select a domain
+2. **Study examples** → Review corresponding attack/defense scenarios in `02_examples/`
+3. **Practice** → Work through exercises in `03_exercises/`
+4. **Deep dive** → Explore academic papers and tool documentation in `04_resources/` and `05_references/`
+5. **Document insights** → Add personal notes and commentary directly in files
 
-- Written report (Markdown or PDF)
-- Reproducible artifacts (code, scripts, data, captures)
-- Presentation material (slides, diagrams)
+### For Contributing Content
 
-## Quality and Reproducibility
+1. Create a working branch from `main`
+2. Add content to the appropriate directory:
+   - Theory explanations → `01_theory/`
+   - Worked examples → `02_examples/`
+   - Practice problems → `03_exercises/`
+   - Resource links → `04_resources/`
+   - Reference materials → `05_references/`
+3. Document sources within the resource/reference files themselves
+4. Update `ATTRIBUTIONS.md` only if you're contributing to workspace development
+5. Update `CHANGE-LOG.md` with the change
+6. Open a Pull Request
 
-- Use clear and consistent file names.
-- Keep source information up to date in ATTRIBUTIONS.md.
-- Document authors and contributions in AUTHORS.md.
-- Verify that results can be reproduced using repository files.
+---
 
-## Key File Maintenance Guide
+## Domain Coverage
 
-- README.md: project overview, objectives, and usage
-- CHANGE-LOG.md: project evolution log
-- AUTHORS.md: contributors and roles
-- ATTRIBUTIONS.md: technical and academic references
-- files/assets/ASSETS.md: visual and media asset register
-- files/resources/RESOURCES.md: resource register
+Primary cybersecurity domains organized in this knowledge base:
 
-## Evaluation Criteria (Example)
+### Offensive Security
 
-- Technical rigor
-- Clarity of explanation
-- Reproducibility
-- Code and documentation quality
+- Reconnaissance and OSINT
+- Vulnerability assessment
+- Exploitation techniques
+- Post-exploitation and persistence
+- Social engineering
+- Wireless security
+
+### Defensive Security
+
+- Threat detection and monitoring
+- Incident response
+- System hardening
+- Security architecture
+- Forensics and analysis
+
+### Foundational Topics
+
+- Threat modeling and risk assessment
+- Network protocols and security
+- Cryptography and applied security
+- Application security (OWASP Top 10)
+- Mobile security (Android/iOS)
+- Cloud security
+
+### Tools and Automation
+
+- Security tooling catalog
+- Automation frameworks
+- Lab environment setup
+- Custom scripts and utilities
+
+---
+
+## Quality Standards
+
+### Content Requirements
+
+- **Accuracy:** All technical content verified against authoritative sources
+- **Source tracking:** Security tools, papers, and CVEs documented in `04_resources/` and `05_references/`
+- **Workspace attribution:** Development contributions tracked in ATTRIBUTIONS.md
+- **Balance:** Offensive techniques paired with defensive countermeasures
+- **Clarity:** Concepts explained at multiple abstraction levels (L1 intuition → L2 formal → L3 example → L4 edge cases)
+- **Reproducibility:** Examples and exercises include enough detail for independent reproduction
+
+### Ethical Guidelines
+
+- All offensive security content is for **educational purposes only**
+- Techniques documented within **legal and ethical boundaries**
+- Every attack vector includes corresponding **defensive mitigations**
+- No operational exploit code targeting production systems
+- Disclosure and responsible security practices emphasized
+
+---
+
+## Key Files
+
+| File                                               | Purpose                                               |
+| -------------------------------------------------- | ----------------------------------------------------- |
+| [README.md](README.md)                             | Project overview and navigation (this file)           |
+| [ATTRIBUTIONS.md](ATTRIBUTIONS.md)                 | Workspace development contributions and AI disclosure |
+| [AUTHORS.md](AUTHORS.md)                           | Contributors and maintainers                          |
+| [CHANGE-LOG.md](.github/versionning/CHANGE-LOG.md) | Version history and evolution log                     |
+| [.claude/CLAUDE.md](.claude/CLAUDE.md)             | AI assistance context and rules                       |
+| [LICENSE](LICENSE)                                 | MIT License with educational use notice               |
+| [04_resources/](04_resources/)                     | Curated cybersecurity tools, papers, and links        |
+| [05_references/](05_references/)                   | Standards, CVEs, frameworks (OWASP, NIST, etc.)       |
+
+---
+
+## Academic Context
+
+This repository supports coursework at **Université de Montréal** and ongoing personal research in cybersecurity. Content is structured to meet university-level academic standards while remaining accessible for progressive learning.
+
+### Citation
+
+When referencing material from this repository in academic work:
+
+```
+Calin, Charlie (PtiCalin). (2026). Cybersecurity Knowledge Hub [Personal knowledge base].
+GitHub. https://github.com/PtiCalin/cybersecurity
+```
+
+---
 
 ## Contact
 
-For questions: [your.name@example.com]
+**Maintainer:** PtiCalin (Charlie)
+**Institution:** Université de Montréal
+**Repository:** [github.com/PtiCalin/cybersecurity](https://github.com/PtiCalin/cybersecurity)
 
 ## Latest Changes
 
 <!-- LATEST-CHANGES:START -->
+
 ### Snapshot from Changelog
 
 _Last sync: 2026-04-19 17:49:28 UTC_
@@ -96,21 +210,14 @@ _Last sync: 2026-04-19 17:49:28 UTC_
 
 ### Added
 
-
 ### Changed
-
 
 ### Deprecated
 
-
 ### Removed
-
 
 ### Fixed
 
-
 ### Security
 
-
 <!-- LATEST-CHANGES:END -->
-

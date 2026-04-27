@@ -1,6 +1,6 @@
 MIT License (EN)
 
-Copyright (c) [YEAR] [AUTHOR OR ORGANIZATION]
+Copyright (c) 2026 Charlie (PtiCalin)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,11 +20,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
--------------------------------------------------------------------------------
-Licence MIT (FR)
--------------------------------------------------------------------------------
+---
 
-Copyright (c) [YEAR] [AUTHOR OR ORGANIZATION]
+## Licence MIT (FR)
+
+Copyright (c) 2026 Charlie (PtiCalin)
 
 La permission est accordee, gratuitement, a toute personne obtenant une copie
 de ce logiciel et des fichiers de documentation associes (le "Logiciel"),
@@ -47,33 +47,49 @@ L'UTILISATION DU LOGICIEL OU A D'AUTRES OPERATIONS DANS LE LOGICIEL.
 Note: Cette version francaise est fournie pour faciliter la lecture. En cas de
 divergence d'interpretation, la version anglaise de la licence MIT prevaut.
 
--------------------------------------------------------------------------------
-Academic Project Notice / Avis de projet academique
--------------------------------------------------------------------------------
+---
+
+## Cybersecurity Knowledge Base Notice / Avis de base de connaissances
 
 EN:
-This repository is primarily maintained as part of a school project.
-The code and documentation are shared for educational purposes and reproducible
-academic work.
+This repository is primarily maintained as a personal cybersecurity learning
+workspace and knowledge base. The content is shared for educational purposes,
+reproducible academic work, and collaborative learning.
+
+EDUCATIONAL USE ONLY:
+
+- All offensive security content is for educational and defensive purposes
+- Techniques documented are intended for authorized security testing only
+- Users are responsible for ensuring lawful and ethical use
+- Unauthorized access to systems is illegal and prohibited
 
 If you reuse this material in coursework, reports, or presentations, please:
 
-1. Keep attribution to the original authors.
+1. Keep attribution to the original author.
 2. Cite the repository according to your institution's citation rules.
 3. Respect third-party licenses listed in ATTRIBUTIONS.md.
+4. Follow all applicable laws and ethical guidelines for security research.
 
 This notice does not replace the MIT License terms above.
 
 FR:
-Ce depot est maintenu principalement dans le cadre d'un projet scolaire.
-Le code et la documentation sont partages a des fins educatives et de
-reproductibilite academique.
+Ce depot est maintenu principalement comme espace d'apprentissage personnel
+et base de connaissances en cybersecurite. Le contenu est partage a des fins
+educatives, de reproductibilite academique et d'apprentissage collaboratif.
+
+USAGE EDUCATIF UNIQUEMENT:
+
+- Tout contenu de securite offensive est a but educatif et defensif
+- Les techniques documentees sont destinees aux tests de securite autorises
+- Les utilisateurs sont responsables d'un usage legal et ethique
+- L'acces non autorise aux systemes est illegal et interdit
 
 Si vous reutilisez ce materiel dans des travaux, rapports ou presentations,
 merci de:
 
-1. Conserver l'attribution aux auteurs originaux.
+1. Conserver l'attribution a l'auteur original.
 2. Citer le depot selon les regles de citation de votre etablissement.
 3. Respecter les licences tierces indiquees dans ATTRIBUTIONS.md.
+4. Suivre toutes les lois applicables et directives ethiques en securite.
 
 Cet avis ne remplace pas les conditions de la licence MIT ci-dessus.
