@@ -7,14 +7,13 @@ This directory contains theory modules on cryptography, encryption, hashing, dig
 ### Cryptographic Fundamentals
 
 - **[Cryptography Basics](cryptography-basics.md)** ✅ — History, types, principles
-- [Symmetric Encryption](symmetric-encryption.md) — AES, DES, block ciphers, stream ciphers
-- [Asymmetric Encryption](asymmetric-encryption.md) — RSA, ECC, public-key cryptography
-- [Hashing Functions](hashing-functions.md) — SHA-256, MD5, integrity verification
+- **[Symmetric Encryption](symmetric-encryption.md)** ✅ — AES, DES, 3DES, block ciphers, stream ciphers, cipher modes
+- **[Asymmetric Encryption](asymmetric-encryption.md)** ✅ — RSA, ECC, NTRUEncrypt, public-key cryptography, digital signatures
+- [Hashing Functions](hashing-functions.md) — SHA-256, MD5, bcrypt, Argon2, integrity verification
 
 ### Applied Cryptography
 
-- [Digital Signatures](digital-signatures.md) — Authentication, non-repudiation
-- [Certificates and PKI](certificates-pki.md) — X.509, certificate authorities, trust chains
+- **[Digital Certificates & PKI](digital-certificates-pki.md)** ✅ — X.509, certificate authorities, trust chains, PKCS, trust models
 - [Key Management](key-management.md) — Generation, distribution, storage, rotation
 - [Cryptographic Protocols](cryptographic-protocols.md) — TLS/SSL, SSH, IPsec
 
