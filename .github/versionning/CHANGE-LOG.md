@@ -39,20 +39,27 @@ The format is based on Keep a Changelog and this project follows semantic-style 
   - Textbook catalog (`05_references/textbooks/TEXTBOOKS.md`) with ~30 curated books, learning paths, difficulty ratings, and reading strategies
 
 - **Theory Module Population (IFT2830 Integration)**
-  - Created domain directory structure in `01_theory/` with README files for navigation
-  - Populated `00-foundations/` with two comprehensive theory modules:
+  - Created domain directory structure in `01_theory/` with README files for all 8 domains (00-foundations through 08-frameworks)
+  - Populated `00-foundations/` with three comprehensive theory modules:
     - `cia-triad.md`: Confidentialité, Intégrité, Disponibilité — foundational security properties with French terminology integration
     - `risk-analysis.md`: Complete risk assessment framework covering actifs, menaces, vulnérabilités, probabilité, impact, risk treatment strategies, and methodologies (EBIOS, MEHARI, OCTAVE, Risk IT, ISO 27005)
+    - `security-governance.md`: Governance framework with three axes (Stratégique, Tactique, Opérationnel), CISO role, governance principles, strategic vs tactical vs operational security, governance failures in breaches
   - Populated `02-network-security/` with comprehensive network attack module:
     - `dos-ddos-attacks.md`: Denial of service techniques including SYN floods, amplification attacks, reflection, ping of death, with defensive countermeasures
-  - Populated `03-offensive-security/` with complete attack methodology module:
+  - Populated `03-offensive-security/` with two attack technique modules:
     - `attack-lifecycle.md`: Eight-phase attack chain from reconnaissance to cleanup with worked web server compromise example, persistence mechanisms, and APT considerations
+    - `password-attacks.md`: Password attack vectors including brute force, dictionary, hybrid, credential stuffing, rainbow tables, phishing; hash algorithms (MD5/SHA vs bcrypt/Argon2), salting, timing analysis, real breaches (RockYou, LinkedIn, Dropbox)
+  - Populated `01-cryptography/` with foundational cryptography module:
+    - `cryptography-basics.md`: Symmetric vs asymmetric encryption, hashing, MACs, digital signatures, hybrid cryptography (TLS/HTTPS handshake), key management, ECB vulnerability, timing attacks, post-quantum considerations
+  - Populated `05-application-security/` with web security module:
+    - `sql-injection.md`: SQL injection attack types (classic, blind, out-of-band), exploitation techniques (authentication bypass, union-based extraction, blind extraction), parameterized queries defense, second-order SQLi, ORM vulnerabilities, WAF bypass, real breaches (Heartland, Sony, Yahoo)
   - All modules follow four-layer pedagogical model (Intuition → Formal → Worked Examples → Edge Cases)
   - Integrated French terminology from IFT2830 course materials throughout (bilingual support)
-  - Added real-world incident examples (WannaCry, Equifax, Stuxnet, Mirai, SolarWinds)
+  - Added real-world incident examples (WannaCry, Equifax, Stuxnet, Mirai, SolarWinds, Heartland, Sony, Yahoo, LinkedIn, Dropbox, Heartbleed)
   - Included 10 active recall prompts per module (understanding, application, transfer questions)
   - Linked modules to IFT2830 course materials in `05_references/course-materials/`
   - Each module includes spaced repetition schedule, personal notes section, and change log
+  - Total 8 comprehensive theory modules created across 5 domains (foundations, cryptography, network security, offensive security, application security)
 
 ### Changed
 

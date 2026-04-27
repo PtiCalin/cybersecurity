@@ -5,20 +5,24 @@ This directory contains foundational cybersecurity concepts that underpin all ot
 ## Topics Covered
 
 ### Core Security Principles
-- **[CIA Triad](cia-triad.md)** — Confidentialité, Intégrité, Disponibilité
+
+- **[CIA Triad](cia-triad.md)** ✅ — Confidentialité, Intégrité, Disponibilité
 - [Security Properties](security-properties.md) — Authentification, non-répudiation, traçabilité
 - [Defense in Depth](defense-in-depth.md) — Layered security approach
 
 ### Risk Management
-- **[Risk Analysis](risk-analysis.md)** — Assets, threats, vulnerabilities, impact assessment
+
+- **[Risk Analysis](risk-analysis.md)** ✅ — Assets, threats, vulnerabilities, impact assessment
 - [Risk Treatment](risk-treatment.md) — Accept, transfer, mitigate, eliminate
 
 ### Governance & Strategy
-- **[Security Governance](security-governance.md)** — Strategic, tactical, operational axes
+
+- **[Security Governance](security-governance.md)** ✅ — Strategic, tactical, operational axes
 - [Security Policy](security-policy.md) — Formal rules and enforcement
 - [Security Strategy](security-strategy.md) — Protection, prevention, reaction, continuity
 
 ### Threat Modeling
+
 - [Threat Modeling Basics](threat-modeling-basics.md) — Identifying and prioritizing threats
 - [Attack Scenarios](attack-scenarios.md) — Scenario construction and analysis
 
@@ -27,6 +31,7 @@ This directory contains foundational cybersecurity concepts that underpin all ot
 ## Learning Path
 
 **Recommended study order:**
+
 1. CIA Triad — Foundation of all security
 2. Security Properties — Extended security characteristics
 3. Threat Modeling Basics — Understanding attackers
